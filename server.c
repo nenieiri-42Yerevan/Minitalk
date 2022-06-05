@@ -6,7 +6,7 @@
 /*   By: vismaily <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/27 18:53:28 by vismaily          #+#    #+#             */
-/*   Updated: 2021/08/09 20:09:31 by vismaily         ###   ########.fr       */
+/*   Updated: 2022/06/05 15:24:07 by vismaily         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 #include <signal.h>
 #include "libft.h"
 
-void	get_bit_by_bit(int	sig)
+void	get_bit_by_bit(int sig)
 {
 	static int				size = 0;
 	static unsigned char	msg = 0;

@@ -6,7 +6,7 @@
 /*   By: vismaily <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/27 18:53:21 by vismaily          #+#    #+#             */
-/*   Updated: 2021/08/09 20:09:44 by vismaily         ###   ########.fr       */
+/*   Updated: 2022/06/05 16:11:13 by vismaily         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,9 +48,6 @@ int	main(int argc, char **argv)
 		send_bit_by_bit(pid, argv[2]);
 	}
 	else
-	{
 		write(1, "./client pid message\n", 21);
-		exit(0);
-	}
 	return (0);
 }
